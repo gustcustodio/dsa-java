@@ -1,6 +1,6 @@
-package linkedList.test;
+package com.loiane.dsa.linkedList.test;
 
-import linkedList.LinkedList;
+import com.loiane.dsa.linkedList.LinkedList;
 
 public class LinkedListTest {
     public static void main(String[] args) {

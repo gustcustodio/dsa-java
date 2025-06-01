@@ -1,4 +1,4 @@
-package linkedList;
+package com.loiane.dsa.linkedList;
 
 public class Node<T> {
     private T element;
