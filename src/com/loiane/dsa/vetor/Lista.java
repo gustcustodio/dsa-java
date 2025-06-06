@@ -29,7 +29,7 @@ public class Lista<T> {
     }
 
     public void adiciona(int posicao, T elemento) {
-        if (!(posicao >= 0 && posicao < tamanho)) {
+        if (!(posicao >= 0 && posicao < this.tamanho)) {
             throw new IllegalArgumentException("Posição inválida");
         }
 
@@ -66,7 +66,7 @@ public class Lista<T> {
     }
 
     public T busca(int posicao) {
-        if (!(posicao >= 0 && posicao < tamanho)) {
+        if (!(posicao >= 0 && posicao < this.tamanho)) {
             throw new IllegalArgumentException("Posição inválida");
         }
 
@@ -74,7 +74,7 @@ public class Lista<T> {
     }
 
     public int busca(T elemento) {
-        for (int i = 0; i < tamanho; i++) {
+        for (int i = 0; i < this.tamanho; i++) {
             if (elementos[i].equals(elemento)) {
                 return i;
             }
@@ -84,6 +84,15 @@ public class Lista<T> {
 
     public boolean contem(T elemento) {
         return busca(elemento) != -1;
+    }
+
+    public int ultimoIndice(T elemento) {
+        for (int i = tamanho - 1; i >= 0; i--) {
+            if (elemento.equals(elementos[i])) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public int getTamanho() {
