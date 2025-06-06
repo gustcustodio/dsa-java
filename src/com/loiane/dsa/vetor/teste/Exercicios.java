@@ -10,7 +10,7 @@ public class Exercicios {
         vetor.adiciona("B");
         vetor.adiciona("C");
         vetor.adiciona("D");
-        vetor.adiciona("A");
+        vetor.adiciona("B");
         vetor.adiciona("E");
         vetor.adiciona("D");
         vetor.adiciona("A");
@@ -25,5 +25,12 @@ public class Exercicios {
         // System.out.println(vetor.getTamanho());
         // System.out.println(vetor.ultimoIndice("D"));
 
+        // * exercício 03 - implementação do método remove * //
+        System.out.println(vetor);
+        System.out.println(vetor.remove("B"));
+        System.out.println(vetor);
+        System.out.println(vetor.remove("B"));
+        System.out.println(vetor);
+        System.out.println(vetor.remove("B"));
     }
 }

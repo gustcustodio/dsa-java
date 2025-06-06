@@ -54,6 +54,15 @@ public class Lista<T> {
         this.elementos[this.tamanho] = null;
     }
 
+    public boolean remove(T elemento) {
+        int posicao = this.busca(elemento);
+        if (posicao != -1) {
+            this.remove(posicao);
+            return true;
+        }
+        return false;
+    }
+
     @SuppressWarnings("unchecked")
     private void aumentaCapacidade() {
         if (this.tamanho == this.elementos.length) {
