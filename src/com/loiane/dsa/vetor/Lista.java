@@ -95,6 +95,14 @@ public class Lista<T> {
         return busca(elemento) != -1;
     }
 
+    public T obtem(int posicao) {
+        if (!(posicao >= 0 && posicao < this.tamanho)) {
+            throw new IllegalArgumentException("Posição inválida");
+        }
+
+        return this.elementos[posicao];
+    }
+
     public int ultimoIndice(T elemento) {
         for (int i = tamanho - 1; i >= 0; i--) {
             if (elemento.equals(elementos[i])) {

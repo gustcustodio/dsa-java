@@ -26,11 +26,19 @@ public class Exercicios {
         // System.out.println(vetor.ultimoIndice("D"));
 
         // * exercício 03 - implementação do método remove * //
+        // System.out.println(vetor);
+        // System.out.println(vetor.remove("B"));
+        // System.out.println(vetor);
+        // System.out.println(vetor.remove("B"));
+        // System.out.println(vetor);
+        // System.out.println(vetor.remove("B"));
+
+        // * exercício 04 - implementação do método obtem * //
         System.out.println(vetor);
-        System.out.println(vetor.remove("B"));
-        System.out.println(vetor);
-        System.out.println(vetor.remove("B"));
-        System.out.println(vetor);
-        System.out.println(vetor.remove("B"));
+        System.out.println(vetor.obtem(0));
+        System.out.println(vetor.obtem(4));
+        System.out.println(vetor.obtem(6));
+        System.out.println(vetor.obtem(8));
+        // System.out.println(vetor.obtem(10));
     }
 }
