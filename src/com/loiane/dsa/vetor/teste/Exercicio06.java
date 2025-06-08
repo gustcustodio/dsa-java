@@ -198,14 +198,14 @@ public class Exercicio06 {
         System.out.println(lista);
     }
 
-    private static String leInformaccao(String msg, Scanner sc) {
+    protected static String leInformaccao(String msg, Scanner sc) {
         System.out.print(msg);
         String entrada = sc.nextLine();
 
         return entrada;
     }
 
-    private static int leInformacaoInt(String msg, Scanner sc) {
+    protected static int leInformacaoInt(String msg, Scanner sc) {
         boolean entradaValida = false;
         int num = 0;
 
@@ -223,7 +223,7 @@ public class Exercicio06 {
         return num;
     }
 
-    private static int obterOpcaoMenu(Scanner sc) {
+    protected static int obterOpcaoMenu(Scanner sc) {
         boolean entradaValida = false;
         int opcao = 0;
         String entrada;
@@ -262,8 +262,7 @@ public class Exercicio06 {
         return opcao;
     }
 
-    private static void criarContatosDinamicamente(int quantidade, Lista<Contato> lista) {
-
+    protected static void criarContatosDinamicamente(int quantidade, Lista<Contato> lista) {
         Contato contato;
 
         for (int i = 1; i <= quantidade; i++) {
