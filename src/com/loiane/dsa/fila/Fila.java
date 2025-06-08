@@ -16,13 +16,15 @@ public class Fila<T> extends EstruturaEstatica<T> {
     }
 
     public T desenfileirar() {
+        final int POS = 0;
+
         if (this.estaVazia()) {
             return null;
         }
 
-        T aux = this.elementos[0];
+        T aux = this.elementos[POS];
 
-        super.remove(0);
+        super.remove(POS);
 
         return aux;
     }
