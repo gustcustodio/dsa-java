@@ -66,6 +66,13 @@ public class Lista<T> {
         return false;
     }
 
+    public void limpar() {
+        for (int i = 0; i < tamanho; i++) {
+            this.elementos[i] = null;
+        }
+        this.tamanho = 0;
+    }
+
     @SuppressWarnings("unchecked")
     private void aumentaCapacidade() {
         if (this.tamanho == this.elementos.length) {

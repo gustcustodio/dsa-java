@@ -40,5 +40,9 @@ public class Exercicios {
         // System.out.println(vetor.obtem(6));
         // System.out.println(vetor.obtem(8));
         // System.out.println(vetor.obtem(10));
+
+        // * exercício 05 - implementação do método limpar * //
+        // vetor.limpar();
+        // System.out.println(vetor);
     }
 }
