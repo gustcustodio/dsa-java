@@ -173,6 +173,20 @@ public class LinkedList<T> {
         return (T[]) vetor;
     }
 
+    public void reverse() {
+        Node<T> currentNode = this.head;
+        Node<T> previousNode = null;
+
+        while (currentNode != null) {
+            Node<T> nextNode = currentNode.getNext();
+            currentNode.setNext(previousNode);
+            previousNode = currentNode;
+            currentNode = nextNode;
+        }
+
+        this.head = previousNode;
+    }
+
     public int getSize() {
         return this.size;
     }
