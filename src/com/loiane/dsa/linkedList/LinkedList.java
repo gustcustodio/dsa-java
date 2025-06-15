@@ -156,6 +156,23 @@ public class LinkedList<T> {
         return currentNode;
     }
 
+    @SuppressWarnings("unchecked")
+    public T[] transformArray() {
+        if (this.size == 0) {
+            return (T[]) new Object[0];
+        }
+
+        Object[] vetor = new Object[this.size];
+        Node<T> currentNode = this.head;
+
+        for (int i = 0; i < this.size; i++) {
+            vetor[i] = currentNode.getElement();
+            currentNode = currentNode.getNext();
+        }
+
+        return (T[]) vetor;
+    }
+
     public int getSize() {
         return this.size;
     }
