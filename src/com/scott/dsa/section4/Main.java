@@ -17,6 +17,9 @@ public class Main {
         myLinkedList.getLength();
         myLinkedList.printList();
 
+        System.out.print("\n***** GET METHOD *****");
+        System.out.print("\n" + myLinkedList.get(2).value);
+
         System.out.print("\n**** REMOVE LAST METHOD *****");
         System.out.print("\nRemoved from the end of LL: " + myLinkedList.removeLast().value);
         System.out.print("\nRemoved from the end of LL: " + myLinkedList.removeLast().value);
