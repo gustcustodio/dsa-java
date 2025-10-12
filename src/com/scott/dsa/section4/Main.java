@@ -24,6 +24,10 @@ public class Main {
         System.out.println("\n" + myLinkedList.set(2, 9));
         myLinkedList.printList();
 
+        System.out.print("\n***** INSERT METHOD *****");
+        System.out.println("\n" + myLinkedList.insert(4, 20));
+        myLinkedList.printList();
+
         System.out.print("\n**** REMOVE LAST METHOD *****");
         System.out.print("\nRemoved from the end of LL: " + myLinkedList.removeLast().value);
         System.out.print("\nRemoved from the end of LL: " + myLinkedList.removeLast().value);
