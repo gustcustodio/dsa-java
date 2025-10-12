@@ -15,6 +15,10 @@ public class Main {
         myLinkedList.getLength();
         myLinkedList.printList();
 
+        System.out.println("\nRemoved from the LL: " + myLinkedList.removeLast().value);
+        System.out.println("\nRemoved from the LL: " + myLinkedList.removeLast().value);
+        System.out.println("\nRemoved from the LL: " + myLinkedList.removeLast());
+
     }
 
 }
