@@ -17,9 +17,15 @@ public class Main {
         myLinkedList.getLength();
         myLinkedList.printList();
 
-        System.out.println("\nRemoved from the LL: " + myLinkedList.removeLast().value);
-        System.out.println("\nRemoved from the LL: " + myLinkedList.removeLast().value);
-        System.out.println("\nRemoved from the LL: " + myLinkedList.removeLast());
+        System.out.print("\n**** REMOVE LAST METHOD *****");
+        System.out.print("\nRemoved from the end of LL: " + myLinkedList.removeLast().value);
+        System.out.print("\nRemoved from the end of LL: " + myLinkedList.removeLast().value);
+        System.out.print("\nRemoved from the end of LL: " + myLinkedList.removeLast());
+
+        System.out.print("\n**** REMOVE FIRST METHOD *****");
+        System.out.print("\nRemoved from the start of LL: " + myLinkedList.removeFirst().value);
+        System.out.print("\nRemoved from the start of LL: " + myLinkedList.removeFirst().value);
+        System.out.print("\nRemoved from the start of LL: " + myLinkedList.removeFirst());
 
     }
 
