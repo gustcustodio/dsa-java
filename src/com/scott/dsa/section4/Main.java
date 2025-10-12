@@ -6,6 +6,10 @@ public class Main {
 
         LinkedList myLinkedList = new LinkedList(4);
 
+        myLinkedList.append(3);
+        myLinkedList.append(5);
+        myLinkedList.append(6);
+
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
