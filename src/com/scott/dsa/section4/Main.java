@@ -24,6 +24,12 @@ public class Main {
         System.out.println("\n" + myLinkedList.set(2, 9));
         myLinkedList.printList();
 
+        System.out.println("\n***** REVERSE METHOD *****");
+        myLinkedList.printList();
+        System.out.println();
+        myLinkedList.reverse();
+        myLinkedList.printList();
+
         System.out.print("\n***** INSERT METHOD *****");
         System.out.println("\n" + myLinkedList.insert(4, 20));
         myLinkedList.printList();
