@@ -14,6 +14,10 @@ public class Main {
 
         myDLL.append(5);
 
+        System.out.println(myDLL.removeLast().value);
+        System.out.println(myDLL.removeLast().value);
+        System.out.println(myDLL.removeLast());
+
         System.out.println("\nDoubly Linked List:");
         myDLL.printList();
 
