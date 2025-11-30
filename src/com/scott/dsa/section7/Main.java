@@ -14,9 +14,15 @@ public class Main {
 
         myDLL.append(5);
 
+        /*
         System.out.println(myDLL.removeLast().value);
         System.out.println(myDLL.removeLast().value);
         System.out.println(myDLL.removeLast());
+        */
+
+        System.out.println(myDLL.removeFirst().value);
+        System.out.println(myDLL.removeFirst().value);
+        System.out.println(myDLL.removeFirst());
 
         myDLL.prepend(3);
         myDLL.prepend(4);
