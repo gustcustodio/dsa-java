@@ -35,8 +35,12 @@ public class Main {
         System.out.println(myDLL.get(3).value);
          */
 
+        /*
         System.out.println(myDLL.set(1, 8));
         System.out.println(myDLL.set(10, 8));
+        */
+
+        myDLL.insert(2, 20);
 
         System.out.println("\nDoubly Linked List:");
         myDLL.printList();
