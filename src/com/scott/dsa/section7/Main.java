@@ -30,8 +30,13 @@ public class Main {
         myDLL.prepend(4);
         myDLL.prepend(5);
 
+        /*
         System.out.println(myDLL.get(1).value);
         System.out.println(myDLL.get(3).value);
+         */
+
+        System.out.println(myDLL.set(1, 8));
+        System.out.println(myDLL.set(10, 8));
 
         System.out.println("\nDoubly Linked List:");
         myDLL.printList();
