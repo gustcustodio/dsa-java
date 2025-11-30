@@ -20,13 +20,18 @@ public class Main {
         System.out.println(myDLL.removeLast());
         */
 
+        /*
         System.out.println(myDLL.removeFirst().value);
         System.out.println(myDLL.removeFirst().value);
         System.out.println(myDLL.removeFirst());
+        */
 
         myDLL.prepend(3);
         myDLL.prepend(4);
         myDLL.prepend(5);
+
+        System.out.println(myDLL.get(1).value);
+        System.out.println(myDLL.get(3).value);
 
         System.out.println("\nDoubly Linked List:");
         myDLL.printList();
