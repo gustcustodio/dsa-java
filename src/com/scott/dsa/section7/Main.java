@@ -42,6 +42,8 @@ public class Main {
 
         myDLL.insert(2, 20);
 
+        myDLL.remove(2);
+
         System.out.println("\nDoubly Linked List:");
         myDLL.printList();
 
