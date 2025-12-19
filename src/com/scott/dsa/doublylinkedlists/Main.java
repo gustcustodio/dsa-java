@@ -1,4 +1,4 @@
-package com.scott.dsa.section7;
+package com.scott.dsa.doublylinkedlists;
 
 public class Main {
 

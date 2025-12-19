@@ -1,4 +1,4 @@
-package com.scott.dsa.section4;
+package com.scott.dsa.linkedlists;
 
 public class Main {
 
